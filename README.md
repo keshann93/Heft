@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/keshenjey/Heft/master/doc/logo.jpg" alt="Heft" height="200">
-  <h2>Heft</h2>
+  Heft
    <br>
   <h4 align="center">Relational and Graph computation with ease</h4>
 </h1>
