@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/keshenjey/Heft/blob/master/doc/logo.jpg" alt="Heft" height="300">
+  <img src="https://raw.githubusercontent.com/keshenjey/Heft/master/doc/logo.jpg" alt="Heft" height="300">
    <br>
   <h4 align="center">Relational and Graph computation with ease</h4>
 </h1>
