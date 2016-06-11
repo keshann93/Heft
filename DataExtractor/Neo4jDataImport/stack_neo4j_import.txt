@@ -1,0 +1,22 @@
+##This file is to show the commands that are used to export data from PostgreSQL and then inport the data into Neo4j
+##@author: keshan
+
+#The following is the commands that shoule be run in sql
+COPY (SELECT * FROM answer) TO '/home/keshan/Documents/Stack_CSV/answer.csv' WITH CSV header;
+COPY (SELECT * FROM question) TO '/home/keshan/Documents/Stack_CSV/question.csv' WITH CSV header;
+COPY (SELECT * FROM labelled_by)  TO '/home/keshan/Documents/Stack_CSV/labelled_by.csv' WITH CSV header;
+COPY (SELECT * FROM tag) TO '/home/keshan/Documents/Stack_CSV/tag.csv' WITH CSV header;
+COPY (SELECT aid,parent_qid FROM answer WHERE parent_qid != 0) TO '/home/keshan/Documents/Stack_CSV/replies_for.csv' WITH CSV header;
+COPY (SELECT qid,accepted_aid FROM question WHERE accepted_aid != 0) TO '/home/keshan/Documents/Stack_CSV/accept.csv' WITH CSV header;
+
+##The following is the commands that use "neo4j-import" to import data into Neo4j 
+bin/neo4j-import --stacktrace true --into /home/keshan/Downloads/neo4j-community-2.2.5/data/stack.db --id-type string --nodes:Answer /media/keshan/OSDisk/Stack_CSV/answer.csv --nodes:Question /media/keshan/OSDisk/Stack_CSV/question.csv --nodes:Tag /media/keshan/OSDisk/Stack_CSV/tag.csv --nodes:User /home/keshan/Documents/Stack_CSV/user.csv --relationships:LABELS /media/keshan/OSDisk/Stack_CSV/labelled_by.csv --relationships:ACCEPTS /home/keshan/Documents/Stack_CSV/accept.csv --relationships:REPLIES_FOR /home/keshan/Documents/Stack_CSV/replies_for.csv --relationships:ACCEPTS_USER /home/keshan/Documents/Stack_CSV/accept_user.csv
+
+##The following is the statistics about Stack Overflow network in Neo4j
+IMPORT DONE in 2m 12s 921ms. Imported:
+  21713109 nodes
+  31747662 relationships
+  153911142 properties
+4.95 GiB
+There were bad entries which were skipped and logged into /home/keshan/Downloads/neo4j-community-2.2.5/data/stack.db/bad.log
+
