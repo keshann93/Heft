@@ -23,8 +23,7 @@
 This System was originally based on the idea of creating a hybrid system which would be able to compute relational computaiton and graph computation. It's a common logic that any relationships which are represented in tables can be also represented as Nodes and Edges that is graph representation. Both the model (Relational Model and Graph Model) based on the common feature of relationships. 
 
 ## Installation
-```
- Currently installation will be easy when its on ubunut. Once the Enhancement : [Built-Script](https://github.com/keshenjey/Heft/issues/1) & [Docker Creation](https://github.com/keshenjey/Heft/issues/3) made it can be possible to run with any OS.
+ Currently installation will be easy when its on ubunut. Once the Enhancements :                                                    [Built-Script](https://github.com/keshenjey/Heft/issues/1) & [Docker Creation](https://github.com/keshenjey/Heft/issues/3) made it can be possible to run with any OS.
  Below packages need to be installed to the ubuntu system
 * Psycopg: http://initd.org/psycopg/
 * TkInter: https://wiki.python.org/moin/TkInter
@@ -33,9 +32,9 @@ This System was originally based on the idea of creating a hybrid system which w
 * Graph-tool: http://graph-tool.skewed.de/
 * SNAP: http://snap.stanford.edu/snappy/index.html
 * NetworkX: http://networkx.github.io/  
-```
+
 ## Features
-- 
+- Creation of Homogenous and Heterogenous Directed and Undirected Graphs with the relational schema based on condition provided through SQL and Graph Operators Introduced.
 - 
 - 
 - 
@@ -45,6 +44,7 @@ This System was originally based on the idea of creating a hybrid system which w
 ## Usage
 Execute the following commands
 ```
+ToDo: Once [Built-Script](https://github.com/keshenjey/Heft/issues/1) is done it will be available 
 ```
 
 ## The Future
