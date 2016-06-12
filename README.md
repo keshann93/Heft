@@ -35,17 +35,15 @@ This System was originally based on the idea of creating a hybrid system which w
 
 ## Features
 - Creation of Homogenous and Heterogenous Directed and Undirected Graphs with the relational schema based on condition provided through SQL and Graph Operators Introduced.
-- 
-- 
-- 
-- 
-- 
+- PageRank Computation
+- Strongly Connected Component Computation
+- Shortest Path Computation
+- Relational Query Computation (i.e. SELECT, JOINs & AGGREGRATE Functions)
 
 ## Usage
 Execute the following commands
-```
 ToDo: Once [Built-Script](https://github.com/keshenjey/Heft/issues/1) is done it will be available 
-```
+
 
 ## The Future
 - [Ability to generate graphs based on the context]()
