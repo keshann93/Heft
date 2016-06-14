@@ -20,7 +20,8 @@
 <br>
 
 ## Introduction
-This System was originally based on the idea of creating a hybrid system which would be able to compute relational computaiton and graph computation. It's a common logic that any relationships which are represented in tables can be also represented as Nodes and Edges that is graph representation. Both the model (Relational Model and Graph Model) based on the common feature of relationships. 
+This System was originally based on the idea of creating a hybrid system which would be able to compute relational computaiton and graph computation. It's a common logic that any relationships which are represented in tables can be also represented as Nodes and Edges that is graph representation. Both the model (Relational Model and Graph Model) based on the common feature of relationships.
+This project when gets stabled will be contributed to POstgresql developement group and Rogas project where the initial idea was evolved 
 
 ## Installation
  Currently installation will be easy when its on ubunut. Once the Enhancements :                                                    [Built-Script](https://github.com/keshenjey/Heft/issues/1) & [Docker Creation](https://github.com/keshenjey/Heft/issues/3) made it can be possible to run with any OS.
