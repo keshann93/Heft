@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/keshenjey/Heft/master/doc/final_logo.jpg" alt="Heft" height="200">
-  
+  <h4 align="center">Still under active development</h4>
    <br>
   <h4 align="center">Relational and Graph computation with ease</h4>
 </h1>
@@ -15,7 +15,7 @@
          alt="License">
   </a>
   
-   <h4 align="center">Still under active development</h4>
+   
 </p>
 <br>
 
