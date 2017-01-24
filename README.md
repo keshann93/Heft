@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/keshenjey/Heft/master/doc/final_logo.jpg" alt="Heft" height="200">
 
    <br>
-  <h4 align="center">RelationalandGraph computation with ease</h4>
+  <h4 align="center">Relational and Graph computation with ease</h4>
 </h1>
 
 <p align="center">
